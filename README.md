@@ -12,6 +12,7 @@ This Python script performs real-time voice activity detection using the Silero 
 Install dependencies using:
 ```bash
 pip install pyaudio torch wave
+```
 
 ## Usage
 1. Place the script in a directory.
@@ -19,6 +20,7 @@ pip install pyaudio torch wave
 3. Run the script:
    ```bash
    python main.py
+   ```
 
 The script monitors audio in real-time and prints 'Speech Detected!' or 'Silence Detected!' based on voice activity.
 
